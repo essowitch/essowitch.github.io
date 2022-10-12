@@ -29,5 +29,9 @@ align-content: flex-start;
 }
 a{
     margin-left: 40px ;
+    text-decoration: none;
+    color:black;
+    border: black solid;
+    border-radius: 20% 20% 20% 20%;
 }
 
