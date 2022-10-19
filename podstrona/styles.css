@@ -19,7 +19,14 @@ align-items:center;
 align-content: flex-start;
 }
 .zdjęcia img{
-    width: 22%;
+    width: 23%;
     margin-right: 20px;
     margin-top:20px;
+}
+a{
+    margin-left: 40px ;
+    text-decoration: none;
+    color:black;
+    border: black solid;
+    border-radius: 20% 20% 20% 20%;
 }
