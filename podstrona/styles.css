@@ -24,9 +24,30 @@ align-content: flex-start;
     margin-top:20px;
 }
 a{
-    margin-left: 40px ;
+    margin-left: 50px ;
     text-decoration: none;
     color:black;
     border: black solid;
-    border-radius: 20% 20% 20% 20%;
+}
+.menu:hover{
+    -webkit-transition: background 1.1s linear;
+-moz-transition: background 1.1s linear;
+-ms-transition: background 1.1s linear;
+-o-transition: background 1.1s linear;
+transition: background 1.1s linear;
+background-color: rgb(37, 88, 240);
+}
+.menu h2{
+    color:black;
+    text-shadow: none;
+}
+.menu a{
+    display: inline-flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+margin-bottom: 60px;
+font-size: 26px;
 }
